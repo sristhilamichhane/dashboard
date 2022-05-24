@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 
 const Customers = () => {
@@ -5,3 +6,12 @@ const Customers = () => {
 };
 
 export default Customers;
+=======
+import React from "react";
+
+const Customers = () => {
+  return <div>Customers</div>;
+};
+
+export default Customers;
+>>>>>>> 28804324dc2052c9bb23ed43c87fe8e79d5a8d69
