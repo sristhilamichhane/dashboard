@@ -1,17 +1,15 @@
-<<<<<<< HEAD
-import React from "react";
+import React from 'react';
 
-const Pie = () => {
-  return <div>Pie</div>;
-};
+import { pieChartData } from '../../data/dummy';
+import { ChartsHeader, Pie as PieChart } from '../../components';
+
+const Pie = () => (
+  <div className="m-4 md:m-10 mt-24 p-10 bg-white dark:bg-secondary-dark-bg rounded-3xl">
+    <ChartsHeader category="Pie" title="Project Cost Breakdown" />
+    <div className="w-full">
+      <PieChart id="chart-pie" data={pieChartData} legendVisiblity height="full" />
+    </div>
+  </div>
+);
 
 export default Pie;
-=======
-import React from "react";
-
-const Pie = () => {
-  return <div>Pie</div>;
-};
-
-export default Pie;
->>>>>>> 28804324dc2052c9bb23ed43c87fe8e79d5a8d69

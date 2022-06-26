@@ -1,17 +1,13 @@
-<<<<<<< HEAD
-import React from "react";
+import React from 'react';
 
-const ChartsHeader = () => {
-  return <div>ChartsHeader</div>;
-};
-
-export default ChartsHeader;
-=======
-import React from "react";
-
-const ChartsHeader = () => {
-  return <div>ChartsHeader</div>;
-};
+const ChartsHeader = ({ category, title }) => (
+  <div className=" mb-10">
+    <div>
+      <p className="text-lg text-gray-400">Chart</p>
+      <p className="text-3xl font-extrabold tracking-tight dark:text-gray-200 text-slate-900">{category}</p>
+    </div>
+    <p className="text-center dark:text-gray-200 text-xl mb-2 mt-3">{title}</p>
+  </div>
+);
 
 export default ChartsHeader;
->>>>>>> 28804324dc2052c9bb23ed43c87fe8e79d5a8d69

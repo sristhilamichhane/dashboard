@@ -1,17 +1,14 @@
-<<<<<<< HEAD
-import React from "react";
+import React from 'react';
 
-const Line = () => {
-  return <div>Line</div>;
-};
+import { ChartsHeader, LineChart } from '../../components';
 
-export default Line;
-=======
-import React from "react";
-
-const Line = () => {
-  return <div>Line</div>;
-};
+const Line = () => (
+  <div className="m-4 md:m-10 mt-24 p-10 bg-white dark:bg-secondary-dark-bg rounded-3xl">
+    <ChartsHeader category="Line" title="Inflation Rate" />
+    <div className="w-full">
+      <LineChart />
+    </div>
+  </div>
+);
 
 export default Line;
->>>>>>> 28804324dc2052c9bb23ed43c87fe8e79d5a8d69

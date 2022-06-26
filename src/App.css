@@ -1,4 +1,4 @@
-@import url("https://cdn.syncfusion.com/ej2/material.css");
+@import url('https://cdn.syncfusion.com/ej2/material.css');
 .sidebar {
     box-shadow: rgb(113 122 131 / 11%) 0px 7px 30px 0px;
 }
@@ -8,7 +8,7 @@
     z-index: 10000;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width:800px) {
     .sidebar {
         z-index: 10000000;
     }
@@ -36,7 +36,7 @@
 /* color-picker style  */
 
 #preview {
-    background: transparent url("https://ej2.syncfusion.com/react/demos/src/color-picker/images/pen.png") no-repeat;
+    background: transparent url('https://ej2.syncfusion.com/react/demos/src/color-picker/images/pen.png') no-repeat;
     display: inline-block;
     height: 80px;
     margin: 10px 0;
